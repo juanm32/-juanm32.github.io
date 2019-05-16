@@ -4,13 +4,17 @@
 		<title>My First Webpage</title>
 	</head>
 	<body>
-		<p>hello world</p>
-    
+    		<p> <strong> Hello my Name is Juan Mendoza<p>
 		<p>
 		<a href="http://eastside.org/">Eastside</a>
+		<ul>
+ 		 <li>Coffee</li>
+ 		 <li>Tea</li>
+		 <li>Milk</li>
+		</ul>
 		</p>
 
 		<!-- Sample image, find something better later -->
-		<img src="sf.jpg" alt="Golden Gate Bridge">
+		<img src="gtr.jpg" alt="GTR">
 	</body>
 </html>
