@@ -4,6 +4,16 @@
 		<title>My First Webpage</title>
 	</head>
 	<body>
+		 background-color: green;
+		 font-size: 20px;
+		 <div id="top">
+
+			<h1>Student Page</h1>
+			<p class="intro">Welcome to my student page. </p>
+			<p class="intro">This is going to be a fun ride. </p>
+		</div>
+
+The difference between an I
     		<p> <strong> Hello my Name is Juan Mendoza<p>
 		<p>
 		<a href="http://eastside.org/">Eastside</a>
