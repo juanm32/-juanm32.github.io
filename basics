@@ -1,5 +1,7 @@
 <!DOCTYPE html>
+
 <html>
+
 	<head>
 		<title>My First Webpage</title>
 		<style>
@@ -19,24 +21,41 @@ text-align: center;
 </style>
 	</head>	
 <body>
-		<div id="top">
-
-			<h1>Student Page</h1>
+	<div id="top">
+			<h1 id = “id-name” > Student Page</h1>
 			<p class="intro">Welcome to my student page. </p>
 			<p class="intro">This is going to be a fun ride. </p>
 		</div>
+
+		<h1 id="heading">My current life</h1>
     		<p> <strong> Hello my Name is Juan Mendoza<p>
+
 		<p>
+
 		<a href="http://eastside.org/">Eastside</a>
+		<button id= “clicker”> Click Me</button>
 		<ul>
 		<ul> This is a list of my favorite things</ul>
- 		 <li>Coffee</li>
+ 		 <li>Cars</li>
  		 <li>Tea</li>
-		 <li>Milk</li>
+		 <li>Soccer</li>
 		</ul>
 		</p>
+		<img src="https://cdn.motor1.com/images/mgl/mmpqB/s1/nuova-nissan-gt-r-render.jpg" style="width:500px;height:400;” alt="GTR">
+	<script>
+		  var headingEl = document.getElementById("heading");
+        console.log(headingEl);
+        // cmd-option-i , ctrl-shift-i 
+        headingEl.innerHTML = "All about Me";
 
-		<!-- Sample image, find something better later -->
-		<img src="gtr.jpg" alt="GTR">
+	 var clickerButton = document.getElementById("clicker");
+	 var onButtonClick = function() {
+           clickerButton.textContent = "Oh wow, you clicked me!";
+    };
+       clickerButton.addEventListener("click", onButtonClick);	
+	</script>
+
+
 	</body>
+
 </html>
